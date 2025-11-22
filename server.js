@@ -18,7 +18,7 @@ const app = express();
 
 // Allow your frontend origins
 app.use(cors({
-  origin: ["http://localhost:5173",], // add more if needed
+  origin: ["http://localhost:5173","https://plant-ai-frontend-psi.vercel.app/"], // add more if needed
   methods: ["GET","POST","OPTIONS"],
   allowedHeaders: ["Content-Type"]
 }));
