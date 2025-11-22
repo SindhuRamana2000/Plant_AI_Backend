@@ -13,6 +13,8 @@ dist-ssr
 *.local
 
 .env
+npm-debug.log*
+
 
 
 # Editor directories and files
